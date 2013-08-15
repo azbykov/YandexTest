@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row-fluid span12">
+            <div id="form_1" class="span6">
+                <h2>Form #1</h2>
+                <form class="form-block"></form>
+                <div class="formAdder">
+                    <input class="input-small" type="text" name="elementName" placeholder="Name" />
+                    <input class="input-small" type="text" name="elementValue" placeholder="Value" />
+                </div>
+                <input class="btn" name="add" type="button" value="add input"/>
+            </div>
+            <div id="form_2" class="span6">
+                <h2>Form #2</h2>
+                <form class="form-block"></form>
+                <div class="formAdder">
+                    <input class="input-small" type="text" name="elementName" placeholder="Name" />
+                    <input class="input-small" type="text" name="elementValue" placeholder="Value" />
+                </div>
+                <input class="btn" name="add" type="button" value="add input"/>
+            </div>
+        </div>
+        <div class="span12">
+            <input id="compareButton" class="btn" type="button" value="compare!" />
+        </div>
+        <div id="objectBox" class="span12"></div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js" ></script>
+    <script src="js/formBuilder.js"></script>
+    <script src="formCompare.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
