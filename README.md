@@ -18,7 +18,7 @@ urlB.getParams();
 ```javascript
 var urlB = new urlBuilder('http://www.yandex.ru/yandsearch?text=azbykov&lr=2');
 urlB.setParams({'text': 'urlBuilder'});
-urlB.getUrl();
+urlB.getUrl(); //http://www.yandex.ru/yandsearch?text=urlBuilder
 ```
 
 4. Реализуйте систему для показа презентаций. Подумайте, как реализовать переключение слайдов и навигацию. Предусмотрите возможность размещения нескольких презентаций на одной странице. Рекомендуется использование jQuery. Код необходимо разместить на одном из специализированных хранилищ: GitHub, Bitbucket, code.google.com и т. д.  
